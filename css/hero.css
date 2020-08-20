@@ -68,6 +68,7 @@
     text-transform: uppercase;
     border: none;
     margin-top: 18px;
+    cursor: pointer;
 }
 
 .hero__svg {
