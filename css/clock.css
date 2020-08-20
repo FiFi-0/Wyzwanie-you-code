@@ -1,0 +1,38 @@
+.container--clock {
+    background-color: var(--color);
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -625px;
+    margin-top: -80px;
+}
+
+.clock__header {
+    color: var(--light);
+    font-family: var(--PrimaryFont);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 50px 0 40px 0;
+}
+
+.clock__grid {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    grid-gap: 80px;
+    font-family: var(--PrimaryFont);
+    color: var(--light);
+}
+
+.clock__grid--up {
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.clock__grid--under {
+    text-transform: uppercase;
+    font-weight: 500;
+    grid-gap: 100px;
+}

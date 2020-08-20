@@ -15,12 +15,8 @@
     position: absolute;
 }
 
-.container {
-    width: 1140px;
-    height: 645px;
+.container--hero {
     padding-top: 25vh;
-    margin: auto;
-    text-align: center;
 }
 
 .hero h1, h2, h3, h4 {

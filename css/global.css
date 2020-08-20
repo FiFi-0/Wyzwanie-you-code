@@ -16,3 +16,9 @@ body {
     --SubHeaderFont: 'Roboto', sans-serif;
     --ButtonFont: 'Montserrat', sans-serif;
 }
+.container {
+width: 1250px;
+height: 645px;
+margin: auto;
+text-align: center;
+}
