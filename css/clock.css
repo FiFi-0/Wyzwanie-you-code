@@ -16,23 +16,23 @@
     margin: 50px 0 40px 0;
 }
 
-.clock__grid {
-    display: grid;
-    grid-template-columns: repeat(4, max-content);
-    justify-content: center;
-    grid-gap: 80px;
+.clock__items {
     font-family: var(--PrimaryFont);
     color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 5px 10px;
 }
 
-.clock__grid--up {
+.clock__items--up {
     font-size: 55px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.clock__grid--under {
+.clock__items--under {
     text-transform: uppercase;
     font-weight: 500;
-    grid-gap: 100px;
 }
