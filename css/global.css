@@ -10,15 +10,15 @@ body {
 :root {
     --color: #1fe8cd;
     --light: #ffffff;
-
     --HeaderFont: 'Bebas Neue', cursive;
     --PrimaryFont: "Open Sans", sans-serif;
     --SubHeaderFont: 'Roboto', sans-serif;
     --ButtonFont: 'Montserrat', sans-serif;
 }
+
 .container {
-width: 1250px;
-height: 645px;
-margin: auto;
-text-align: center;
+    max-width: 1250px;
+    height: 645px;
+    margin: 0 auto;
+    text-align: center;
 }

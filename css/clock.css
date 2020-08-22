@@ -1,38 +1,39 @@
 .container--clock {
+    position: relative;
+    height: 300px;
+    top: -75px;
+    padding: 50px;
+    font-family: var(--PrimaryFont);
+    color: var(--light);
+    text-align: center;
     background-color: var(--color);
-    height: 250px;
-    position: absolute;
-    left: 50%;
-    margin-left: -625px;
-    margin-top: -80px;
 }
 
 .clock__header {
-    color: var(--light);
-    font-family: var(--PrimaryFont);
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 50px 0 40px 0;
+    margin-bottom: 40px;
 }
 
-.clock__items {
-    font-family: var(--PrimaryFont);
-    color: var(--light);
+.clock__item {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    margin: 5px 10px;
 }
 
-.clock__items--up {
+.clock__span-value, .clock__span-unit {
+    width: 100px;
+    margin: 10px 25px;
+}
+
+.clock__span-value {
     font-size: 55px;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 
-.clock__items--under {
+.clock__span-unit {
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
 }
