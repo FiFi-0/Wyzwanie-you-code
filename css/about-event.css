@@ -1,0 +1,48 @@
+.container--about-event {
+    text-align: left;
+    margin-top: 80px;
+}
+
+.about-event__header {
+    font-family: var(--PrimaryFont);
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 29px;
+    justify-content: left;
+}
+
+.about-event__header-shadow {
+    font-family: var(--PrimaryFont);
+    color: var(--shadow);
+    text-transform: uppercase;
+    font-size: 99px;
+    position: absolute;
+    margin: -43px -80px;
+}
+
+.about-event__pharagraph {
+    font-family: var(--PrimaryFont);
+    color: var(--dark);
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1.8;
+    padding-top: 30px;
+}
+
+.img-float {
+    float: right;
+    height: 500px;
+    width: 720px;
+    padding-left: 50px;
+}
+
+.about-event__button {
+    font-family: var(--PrimaryFont);
+    background: var(--color);
+    color: var(--light);
+    padding: 20px 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+}
