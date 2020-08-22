@@ -5,7 +5,7 @@
 
 .about-event__header {
     font-family: var(--PrimaryFont);
-    color: var(--dark);
+    color: var(--theme);
     text-transform: uppercase;
     font-size: 29px;
     justify-content: left;
