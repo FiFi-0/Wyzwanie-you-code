@@ -12,7 +12,7 @@ body {
     --light: #ffffff;
     --dark: #05003E;
     --shadow: rgba(5, 0, 62, 0.05);
-    --overlay: rgba(5, 0, 62, 0.6);
+    --overlay: rgba(5,0,62,0.7);
     --HeaderFont: 'Bebas Neue', cursive;
     --PrimaryFont: "Open Sans", sans-serif;
     --SubHeaderFont: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1140px;
     height: 645px;
     margin: 0 auto;
     text-align: center;

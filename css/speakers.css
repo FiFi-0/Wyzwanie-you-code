@@ -1,12 +1,11 @@
 .speakers {
-    margin: 0 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0px;
     width: 100%;
     padding-top: 30px;
     overflow: hidden;
-    max-width: 100%;
+    text-align: center;
 }
 
 .description {
@@ -14,18 +13,20 @@
     flex-direction: column;
     align-items: flex-end;
     background-color: var(--overlay);
-    overflow-x: hidden;
+    width: 400px;
 }
 
 .profile {
-    background-size: cover;
-    padding: 20px 30px;
-    overflow-x: hidden;
-    position: relative;
-    height: 500px;
+
 }
 
-.profile::after {
+.profile__photo {
+    width: 466px;
+    height: 500px;
+    background-size: cover;
+}
+
+.profile__photo::after {
     content: "";
     background: var(--overlay);
     position: absolute;

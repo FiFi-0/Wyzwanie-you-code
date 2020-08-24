@@ -7,7 +7,7 @@
     font-family: var(--PrimaryFont);
     color: var(--theme);
     text-transform: uppercase;
-    font-size: 29px;
+    font-size: 24px;
     justify-content: left;
 }
 
@@ -15,25 +15,38 @@
     font-family: var(--PrimaryFont);
     color: var(--shadow);
     text-transform: uppercase;
-    font-size: 99px;
+    font-size: 80px;
     position: absolute;
-    margin: -43px -80px;
+    margin: -35px -62px;
 }
 
 .about-event__pharagraph {
     font-family: var(--PrimaryFont);
     color: var(--dark);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
-    line-height: 1.8;
+    line-height: 36px;
     padding-top: 30px;
 }
 
-.img-float {
+.about-event__img {
+    background-image: url("/images/about-us.jpg");
     float: right;
-    height: 500px;
-    width: 720px;
-    padding-left: 50px;
+    height: 415px;
+    width: 570px;
+    margin-left: 50px;
+    position: relative;
+    background-position: center;
+}
+
+.about-event__img::after {
+    content: "";
+    background: var(--overlay);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .about-event__button {
@@ -41,7 +54,7 @@
     background: var(--color);
     color: var(--light);
     padding: 20px 60px;
-    font-size: 18px;
+    font-size: 12px;
     text-transform: uppercase;
     border: none;
     font-weight: 500;

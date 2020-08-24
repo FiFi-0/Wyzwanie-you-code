@@ -29,27 +29,27 @@
 .hero__h1 {
     color: var(--color);
     font-family: var(--HeaderFont);
-    font-size: 220px;
+    font-size: 200px;
     line-height: 191px;
 }
 
 .hero__h2 {
     color: var(--light);
     font-family: var(--HeaderFont);
-    font-size: 110px;
+    font-size: 100px;
 }
 
 .hero__h3 {
     color: var(--light);
     font-family: var(--PrimaryFont);
-    font-size: 25px;
+    font-size: 22px;
     line-height: 10px;
 }
 
 .hero__h4 {
     color: var(--light);
     font-family: var(--SubHeaderFont);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 60px;
     font-weight: 200;
 }
@@ -60,7 +60,7 @@
     color: var(--light);
     padding: 20px 56px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     border: none;
     margin-top: 18px;
@@ -68,7 +68,7 @@
 }
 
 .hero__svg {
-    width: 300px;
+    width: 280px;
     position: absolute;
-    top: 49.5vh;
+    top: 51.5vh;
 }

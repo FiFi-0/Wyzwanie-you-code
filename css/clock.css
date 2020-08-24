@@ -10,7 +10,7 @@
 }
 
 .clock__header {
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 40px;
@@ -24,16 +24,16 @@
 
 .clock__span-value, .clock__span-unit {
     width: 100px;
-    margin: 10px 25px;
+    margin: 10px 15px;
 }
 
 .clock__span-value {
-    font-size: 55px;
+    font-size: 48px;
     font-weight: 600;
 }
 
 .clock__span-unit {
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
 }
