@@ -12,27 +12,100 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: var(--overlay);
-    width: 400px;
+    background-color: var(--theme);
+    position: relative;
 }
 
-.profile {
+.description__header {
+    font-family: var(--PrimaryFont);
+    font-size: 24px;
+    color: var(--color);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 150px 40px 0 310px;
+}
 
+.description__header-shadow {
+    font-family: var(--PrimaryFont);
+    font-size: 100px;
+    color: rgba(31, 232, 205, 0.1);
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.description__pharagraph {
+    font-family: var(--PrimaryFont);
+    font-size: 18px;
+    color: var(--light);
+    line-height: 36px;
+    font-weight: 200;
+    padding: 20px 40px 0 135px;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.description__button {
+    font-family: var(--PrimaryFont);
+    font-size: 12px;
+    color: var(--color);
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    padding: 52px 40px 0 0;
 }
 
 .profile__photo {
     width: 466px;
     height: 500px;
-    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.profile__photo--1 {
+    background-image: url("/images/speaker1.jpg");
+}
+
+.profile__photo--2 {
+    background-image: url("/images/speaker2.jpg");
+}
+
+.profile__photo--3 {
+    background-image: url("/images/speaker3.jpg");
 }
 
 .profile__photo::after {
-    content: "";
-    background: var(--overlay);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
+        content: "";
+        background: var(--overlay);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
 }
+
+.profile {
+    position: relative;
+}
+
+.profile__header {
+    position: absolute;
+    color: var(--color);
+    font-family: var(--PrimaryFont);
+    font-size: 14px;
+    text-transform: uppercase;
+    bottom: 55px;
+    left: 62px;
+}
+
+.profile__description {
+    position: absolute;
+    color: var(--light);
+    font-family: var(--PrimaryFont);
+    font-size: 12px;
+    bottom: 20px;
+    left: 62px;
+}
+
