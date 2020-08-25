@@ -1,0 +1,73 @@
+.newsletter {
+    position: relative;
+}
+
+.container--newsletter {
+    height: 262px;
+    width: 580px;
+}
+
+.newsletter__header {
+    font-size: 24px;
+    font-family: var(--PrimaryFont);
+    color: var(--dark);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 140px;
+}
+
+.newsletter__header-shadow {
+    font-size: 80px;
+    font-family: var(--PrimaryFont);
+    color: var(--shadow);
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    top: -37px;
+    left: 36.3%;
+}
+
+.newsletter__pharagraph {
+    font-size: 18px;
+    font-family: var(--PrimaryFont);
+    color: var(--dark);
+    font-weight: 200;
+    line-height: 36px;
+    padding-top: 30px;
+}
+
+.newsletter__input {
+    background: var(--gray);
+    color: #666;
+    width: calc(100% - 140px);
+    height: 52px;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: text;
+    border: none;
+    box-shadow: 0px -1px 2px 0px #C1C1C1;
+    transition: .3s;
+}
+
+.newsletter__input:focus {
+    padding: 10px 15px;
+    outline: none;
+    box-shadow: none;
+}
+
+.newsletter__input::placeholder {
+    padding: 10px 15px;
+    color: #8888;
+}
+
+.newsletter__button {
+    color: var(--light);
+    background: var(--color);
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 18px 37px;
+    border-radius: 3px;
+}
