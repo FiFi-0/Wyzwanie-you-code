@@ -65,15 +65,15 @@
 }
 
 .profile__photo--1 {
-    background-image: url("/images/speaker1.JPG");
+    background-image: url("https://i.postimg.cc/Y0xK0X4w/speaker1.jpg");
 }
 
 .profile__photo--2 {
-    background-image: url("/images/speaker2.JPG");
+    background-image: url("https://i.postimg.cc/cCWGsqLm/speaker2.jpg");
 }
 
 .profile__photo--3 {
-    background-image: url("/images/speaker3.JPG");
+    background-image: url("https://i.postimg.cc/3RmH5rYN/speaker3.jpg");
 }
 
 .profile__photo::after {
