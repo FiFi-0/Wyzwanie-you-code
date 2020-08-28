@@ -65,15 +65,15 @@
 }
 
 .profile__photo--1 {
-    background-image: url("https://i.postimg.cc/Y0xK0X4w/speaker1.jpg");
+    background-image: url("https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker_1.jpg");
 }
 
 .profile__photo--2 {
-    background-image: url("https://i.postimg.cc/cCWGsqLm/speaker2.jpg");
+    background-image: url("https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker_2.jpg");
 }
 
 .profile__photo--3 {
-    background-image: url("https://i.postimg.cc/3RmH5rYN/speaker3.jpg");
+    background-image: url("https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker_3.jpg");
 }
 
 .profile__photo::after {
