@@ -4,5 +4,4 @@
 
 # TODO:
 # smooth scroll on site
-# github pages js
 # mobile responsive
